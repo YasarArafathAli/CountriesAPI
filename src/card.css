@@ -1,0 +1,18 @@
+.cards-item {
+    background: #f9f9f9;
+    border: 1px solid #bada55;
+    margin: 5px;
+    width: 345px;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 550px;
+}
+
+.card-content{
+    padding: 0 20px;
+    line-height: 1;
+}
+
+.Nepalflag{
+    width: 200px !important;
+}
