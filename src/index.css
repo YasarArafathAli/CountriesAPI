@@ -1,9 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=Montserrat&display=swap');
 
 body {
-  background-color: #001219;
+  /* background-color: #001219;*/
+  background: url(./World-Map-2.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   padding: 20px;
   margin: 0;
+  font-size: 14px;
   font-family: 'Montserrat',
   -apple-system,
   BlinkMacSystemFont,
