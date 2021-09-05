@@ -12,7 +12,7 @@ function Card(props) {
             <p><strong>Capital</strong> : {props.country.capital}</p>
             <p><strong>Region</strong> : {props.country.region}</p>
             <p><strong>Srb-region</strong> : {props.country.subregion}</p>
-            <p><strong>Population</strong> : {props.country.population}</p>
+            <p><strong>Population</strong> : {props.country.population.toLocaleString()}</p>
             <p><strong>Borders</strong> : {props.country.borders.length === 0 ? "None" :props.country.borders.join()}</p>
             <p><strong>Languages</strong> : {props.country.languages.map(lang => lang.name).join()}</p>
           </div>
