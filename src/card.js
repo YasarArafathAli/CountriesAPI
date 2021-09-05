@@ -7,9 +7,9 @@ function Card(props) {
       <div className="cards-item">
         <div className="card-image">
           
-          <img className={ props.country.name + 'flag'}  src={props.country.flag} alt={props.country.cioc + "flag"} width="350"></img></div>
+          <img className={ props.country.name + 'flag'}  src={props.country.flag} alt={props.country.cioc + "flag"} width="fit-content" height ="200"></img></div>
         <div className="card-content">
-          <div className="card-title"><h2>{props.country.name}</h2></div>
+          <div className="card-title"><h2>{props.country.name.toUpperCase()}</h2></div>
           <div className="card-details">
             <p><strong>Capital</strong> : {props.country.capital}</p>
             <p><strong>Region</strong> : {props.country.region}</p>
