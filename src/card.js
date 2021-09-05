@@ -1,7 +1,19 @@
 import React from 'react';
 import "./card.css";
 function Card(props) {
-
+  // const borders = props.country.borders;
+  // borders.map(async txt => {
+  //               const res = await fetch(`https://restcountries.eu/rest/v2/alpha/${txt}?fields=name`);
+  //               const data = await res.json();
+  //               console.log( data.name)
+  //               data.name
+  //             }
+  
+  // const getName = async (code) => {
+  //   const res =  await fetch(`https://restcountries.eu/rest/v2/alpha/${code}?fields=name`)
+  //   return res.json()
+  // }
+// console.log(getName("ind"));  
     return (
       <div className="cards-item">
         <div className="card-image">
