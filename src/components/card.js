@@ -1,5 +1,5 @@
 import React from 'react';
-import "./card.css";
+import "../styles/card.css";
 function Card(props) {
   // const borders = props.country.borders;
   // borders.map(async txt => {

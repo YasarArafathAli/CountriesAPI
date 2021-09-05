@@ -1,4 +1,4 @@
-import './App.css';
+import '../styles/App.css';
 import {
   useEffect,
   useState
@@ -62,4 +62,4 @@ function App() {
             );
           }
         }
-        export default App;
+  export default App;
