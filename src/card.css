@@ -9,11 +9,17 @@
     height: 550px;
 }
 
+.cards-item img{
+    width:  100%;
+    height: 200px;
+    /* margin: auto; */
+}
+
 .card-content{
     padding: 0 20px;
     line-height: 1;
 }
 
-.Nepalflag{
-    width: 200px !important;
+.card-content .card-title h2  {
+    letter-spacing: 3px;
 }
