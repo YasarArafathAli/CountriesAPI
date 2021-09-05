@@ -1,6 +1,7 @@
 import React from 'react';
 import "./card.css";
 function Card(props) {
+
     return (
       <div className="cards-item">
         <div className="card-image">
@@ -13,13 +14,10 @@ function Card(props) {
             <p><strong>Region</strong> : {props.country.region}</p>
             <p><strong>Srb-region</strong> : {props.country.subregion}</p>
             <p><strong>Population</strong> : {props.country.population.toLocaleString()}</p>
-            <p><strong>Borders</strong> :
-              {props.country.borders.length === 0 ? "None" : props.country.borders.map(code => {
-                
-              }).join()}
+            <p><strong>Borders</strong>: {props.country.borders.length === 0 ? " None" : props.country.borders.join(", ")}
               
             </p>
-            <p><strong>Languages</strong> : {props.country.languages.map(lang => lang.name).join()}</p>
+            <p><strong>Languages</strong> : {props.country.languages.map(lang => lang.name).join(", ")}</p>
           </div>
         </div>
       </div>

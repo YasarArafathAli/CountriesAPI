@@ -3,21 +3,22 @@
     background: #343a40;
     border: 1px solid #003566;
     margin: 25px 5px;
-    width: 245px;
+    width: 275px;
     border-radius: 10px;
-    overflow: hidden;
+    overflow-y: auto;
     height: 450px;
 }
 
 .cards-item img{
     width:  100%;
-    height: 140px;
+    height: 160px;
     /* margin: auto; */
 }
 
 .card-content{
     padding: 0 20px;
-    line-height: 0.9;
+    line-height: 1;
+
 }
 .card-content p{
     word-wrap: break-word;
@@ -27,3 +28,4 @@
     letter-spacing: 3px;
     font-size : 1.2rem
 }
+
