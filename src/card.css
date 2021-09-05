@@ -19,7 +19,10 @@
     padding: 0 20px;
     line-height: 1;
 }
-
+.card-content p{
+    word-wrap: break-word;
+    /* overflow-wrap: break-word; */
+}
 .card-content .card-title h2  {
     letter-spacing: 3px;
 }
